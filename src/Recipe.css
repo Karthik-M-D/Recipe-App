@@ -1,0 +1,106 @@
+.details-container{
+    padding-top: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.container-whole{
+    height: 100vh;
+}
+
+.detail-head{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+}
+
+.d-box{
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 10px #402525;
+}
+
+.d-box:hover{
+    transform: translateY(-10px);
+}
+
+.detail-head h2{
+    padding-bottom: 20px;
+}
+
+.details-buttons{
+    width: 60%;
+    padding: 40px;
+}
+
+.details-buttons button{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.button-heading{
+    text-align: start;
+    margin-top: 50px;
+}
+
+.button-content{
+    text-align: start;
+    line-height: 1.5;
+}
+
+.detail-head img{
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 780px) {
+    .details-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .detail-head{
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .details-buttons button{
+        padding: 10px;
+        width: 100px;
+    }
+    .detail-head{
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .details-buttons button{
+        font-size: 15px;
+    }
+    .detail-head{
+        padding-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .details-buttons button{
+        font-size: 15px;
+        width: 100%;
+    }
+    .detail-head{
+        padding-right: 10px;
+    }
+    .detail-head h2{
+        font-size: 18px;
+    }
+    .details-buttons{
+        padding: 10px 0;
+    }
+}
